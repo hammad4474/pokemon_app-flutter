@@ -22,8 +22,7 @@ class _PokeScreenState extends State<PokeScreen> {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [Colors.purple, Colors.yellow])),
+          decoration: BoxDecoration(color: Colors.white),
           child: Padding(
             padding: const EdgeInsets.all(12.0),
             child: Column(
