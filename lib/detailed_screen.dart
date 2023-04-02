@@ -50,7 +50,7 @@ class DetailedScreen extends StatelessWidget {
                         unselectedLabelColor: Colors.green,
                         tabs: [
                           Tab(
-                            text: "Medasour",
+                            text: data['name'],
                           ),
                           Tab(
                             text: "Base Stats",
